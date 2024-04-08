@@ -47,7 +47,7 @@ async def async_setup_entry(
 class MaxPower(NumberEntity):
     _attr_device_class = NumberDeviceClass.POWER
     _attr_available = False
-    _attr_native_max_value = 800
+    _attr_native_max_value = 960
     _attr_native_min_value = 30
     _attr_native_step = 1
 
